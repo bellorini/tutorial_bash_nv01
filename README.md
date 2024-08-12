@@ -115,7 +115,7 @@ usuário@máquina:~$ ls tutorial_ #TAB (autocompleta com "bash_nv01")
 usuário@máquina:~$ ls tutorial_bash_nv01
 ```  
 
-## 2. Navegação entre diretórios e listar arquivos ocultos
+## 2. Diretórios e Arquivos
 
 Rumo ao primeiro caractere!  
 Recomenda-se ir anotando os caracteres encontrados.
@@ -126,7 +126,7 @@ Recomenda-se ir anotando os caracteres encontrados.
 DICA: o caractere 01 pode ser encontrado no nome de um arquivo escondido no diretório "exercícios/exercício02"
 ```
 
-Para navegar entre diretórios e acessar diretórios abaixo na hierarquia, também chamados de diretórios _filhos_, utilize o comando **cd** com o argumento __nome do diretório de destino__
+Para navegar entre diretórios e acessar diretórios abaixo na hierarquia, também chamados de diretórios _filhos_ ou _subdiretórios_, utilize o comando **cd** com o argumento __nome do diretório de destino__
 ``` {.sourceCode .bash}
 usuário@máquina:~$ cd # insira o diretório de destino e pressione ENTER
 ```  
@@ -149,6 +149,8 @@ Navegue entre os diretórios filhos do diretório **exercício02** até encontra
 DICA: o caractere 02 pode ser encontrado no nome de um arquivo oculto e escondido no diretório "exercícios/exercício02"
 ```
 
+Arquivos ocultos no Linux são aqueles cujo nome iniciam com um caractere "." (ponto)  
+
 Para listar arquivos ocultos, basta utilizar o parâmetro **-a** no comando **ls**
 ``` {.sourceCode .bash}
 usuário@máquina:~$ ls -a
@@ -159,9 +161,21 @@ Como resultado, serão apresentados os arquivos ocultos junto com os arquivos "n
 * diretório ".": é uma ligação/ponteiro para o próprio diretório, útil para desambiguação entre comandos locais e globais
 * diretório "..": é uma ligação/ponteiro para o diretório _pai_ e já foi usado junto com o comando **cd** na seção 2.1  
 
+### 2.3 Executando um script
 
+```
+DICA: o caractere 03 será exibido no terminal ao executar o script chamado "um_script.sh" existente em algum subdiretório do diretório exercícios/exercício02/
+```
 
+Um arquivo [script](https://pt.wikipedia.org/wiki/Shell_script) é um arquivo que contém um ou vários comandos **shell** em uma sequência lógica de execução. Estes arquivos são extremamente úteis para tornar ações rotineiras em _scripts_ automáticos.
 
+Uma das formas mais simples de executar um arquivo **script** é utilizar o comando **source** com o argumento sendo o nome do arquivo que contém o script desejado.
+
+``` {.sourceCode .bash}
+usuário@máquina:~$ source #nome do arquivo que contém o script, normalmente terminal em .sh
+```  
+
+### 2.4 Descobrindo o tamanho de um arquivo com ls
 
 
 
