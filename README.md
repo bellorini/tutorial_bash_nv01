@@ -57,9 +57,14 @@ Deverá ser apresentado a seguinte resposta:
 /home/usuário
 ```
 
-Observação 2: em alguns momento será necessário adicionar um ou outro comentário, desta forma, o caractere **#** será utilizado, portanto, tudo o que estiver à direita do **#** é um comentário e não deve ser entrado no terminal
+Observação 2: em alguns momento será necessário adicionar um ou outro comentário, desta forma, o caractere **#** será utilizado, portanto, tudo o que estiver à direita do **#** é um comentário e não deve ser entrado no terminal. Um exemplo de uso de comentário é observado acima, junto ao comando **pwd**
 
-Obsevação 3: espaço em branco é muito importante no terminal, já que este é considerado um separador de campos. Assim, deve-se sempre inserir um espaço em branco entre o comando e seus parâmetros e argumentos
+Observação 3: em casos onde não é necessário apresentar a linha de comando completa, todas as informações entre o início da linha de comando até o caractere "$" serão ocultados, por exemplo:
+``` {.sourceCode .bash}
+$ pwd 
+```  
+
+Obsevação 4: espaço em branco é muito importante no terminal, já que este é considerado um separador de campos. Assim, deve-se sempre inserir um espaço em branco entre o comando e seus parâmetros e argumentos
 
 Após verificado estas condições inicias, vamos começar nossa caçada às letras.
 
@@ -70,7 +75,7 @@ Após verificado estas condições inicias, vamos começar nossa caçada às let
 Vamos baixar a estrutura de diretórios e arquivos deste repositório utilizando o comando **wget**.  
 Este comando é um _downloader_ que aceita como argumento uma [URI](https://pt.wikipedia.org/wiki/URL). Neste caso, como desejamos baixar a estrutura de diretórios do nosso repositório, usaremos a URI do arquivo compactado como este argumento. Desta forma, no terminal, entre com o seguinte comando:
 ``` {.sourceCode .bash}
-wget https://github.com/bellorini/tutorial_bash_nv01/archive/refs/heads/tutorial_bash_nv01.zip
+usuário@máquina:~$ wget https://github.com/bellorini/tutorial_bash_nv01/archive/refs/heads/tutorial_bash_nv01.zip
 ```
 
 TODO, apresentar texto de completado após completar a construção deste tutorial  
@@ -131,12 +136,14 @@ Para navegar entre diretórios e acessar diretórios abaixo na hierarquia, tamb�
 usuário@máquina:~$ cd # insira o diretório de destino e pressione ENTER
 ```  
 
-Como resultado, o diretório atual de trabalho será o diretório escolhido  
-  
+Como resultado, o diretório atual de trabalho será o diretório escolhido e a linha de comando será alterada para  
+``` {.sourceCode .bash}
+usuário@máquina:~/nome_do_diretório_de_destino$ 
+```  
 
 Para voltar ao diretório acima na hierarquia, também chamado de diretório _pai_, use o comando **cd**, porém, como argumento _nome do diretório de destino_, utilize ".." (dois pontos em sequência).
 ``` {.sourceCode .bash}
-usuário@máquina:~$ cd ..
+usuário@máquina:~/algum_diretório$ cd ..
 ```  
 
 Como resultado, você alterará o diretório atual de trabalho para o diretório _pai_ do seu diretório atual.
@@ -177,7 +184,28 @@ usuário@máquina:~$ source #nome do arquivo que contém o script, normalmente t
 
 ### 2.4 Descobrindo o tamanho de um arquivo com ls
 
+```
+DICA: o caractere 04 é o caractere ASCII apontado pelo tamanho do arquivo "exercícios/exercício02/qual_é_meu_tamanho_em_bytes.txt"
+```
 
+Até o momento, o comando **ls** foi usado de forma _pura_, sem parâmetros ou argumentos. Porém, este comando pode fazer muitas coisas, e uma delas é mostrar várias informações de arquivos ou um arquivo específico. Estas informações estão relacionadas na forma de uma tabela com as seguintes informações (da esquerda para direita):  
+
+* se é um arquivo ou diretório  
+* permissões de acesso ao arquivo (dono/grupo/outros)  
+* quem é o dono do arquivo  
+* qual é o grupo que o arquivo pertence  
+* tamanho do arquivo em bytes  
+* _timestamp_  
+* nome do arquivo  
+
+Então, para mostrar todas estas informações, use o comando **ls** com o parâmetro **-l** no diretório especificado na _Dica_ acima.
+``` {.sourceCode .bash}
+usuário@máquina:~/tutorial_bash_nv01$ ls -l exercícios/exercício02/
+```  
+
+Após descobrir o tamanho do arquivo "qual_é_meu_tamanho_em_bytes.txt", use a [tabela ASCII](https://en.wikipedia.org/wiki/ASCII#Printable_characters) e relacione o tamanho do arquivo com a coluna DEC e o caractere 04 é o glifo associado à este valor.
+
+## 3. Editar arquivos de texto  
 
 
 
