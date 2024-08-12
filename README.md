@@ -145,7 +145,19 @@ Navegue entre os diretórios filhos do diretório **exercício02** até encontra
 
 ### 2.2 Listar arquivos ocultos  
 
+```
+DICA: o caractere 02 pode ser encontrado no nome de um arquivo oculto e escondido no diretório "exercícios/exercício02"
+```
 
+Para listar arquivos ocultos, basta utilizar o parâmetro **-a** no comando **ls**
+``` {.sourceCode .bash}
+usuário@máquina:~$ ls -a
+```  
+
+Como resultado, serão apresentados os arquivos ocultos junto com os arquivos "normais". Normalmente, dentro de cada diretório, encontram-se os diretórios ocultos "." e ".." 
+
+* diretório ".": é uma ligação/ponteiro para o próprio diretório, útil para desambiguação entre comandos locais e globais
+* diretório "..": é uma ligação/ponteiro para o diretório _pai_ e já foi usado junto com o comando **cd** na seção 2.1  
 
 
 
