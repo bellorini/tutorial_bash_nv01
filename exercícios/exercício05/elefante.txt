@@ -1,0 +1,7 @@
+Com quatro parâmetros
+Eu consigo desenhar um elefante
+E com cinco parâmetros
+Este elefante irá balançar sua trompa
+
+(John von Neumann - tradução livre)
+

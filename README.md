@@ -275,16 +275,51 @@ Para remover um arquivo, use o comando **rm** seguido do argumento nome_do_arqui
 $ rm # insira o nome_do_arquivo_a_ser_excluído
 ```
 
-Outra dica é o caractere coringa __*__ que pode ser usado no terminal. Este caracteres significa "qualquer combinação de caracteres nesta posição", isto é, se você usar a seguinte linha de comando:
+Outra dica é o caractere curinga __*__ que pode ser usado no terminal. Este caracteres significa "qualquer combinação de caracteres nesta posição", isto é, se você usar a seguinte linha de comando:
 ``` {.sourceCode .bash}
 $ rm *Y
 ```
 
-Como resultado, removerá TODOS os arquivos que contém qualquer combinação de caracteres e são finalizados com o caractere "Y". Você pode aplicar mais do que um caractere coringa __*__ nas linhas de comando.
+Como resultado, removerá TODOS os arquivos que contém qualquer combinação de caracteres e são finalizados com o caractere "Y". Você pode aplicar mais do que um caractere curinga __*__ nas linhas de comando.
 
-**IMPORTANTE**: o caractere coringa é muito poderoso e deve ser usado com cautela. Em Linux, não é possível recuperar um arquivo apagado pelo comando **rm**.
+**IMPORTANTE**: o caractere curinga é muito poderoso e deve ser usado com cautela. Em Linux, não é possível recuperar um arquivo apagado pelo comando **rm**.
 
 ## 5. Processamento básico de textos
+
+Volte para o diretório principal localizado em "/home/usuário/tutorial_bash_nv01/" e acesse o diretório "exercícios/exercício05/"  
+
+### 5.1 Comparando arquivos de texto  
+
+> Dica: o caractere 11 é o único caractere que é diferente entre os arquivos "ai.txt" e "inteligencia_artificial.txt"  
+
+Para comparar 2 arquivos de texto, o comando **diff** é utilizado. Este comando **diff** aceita 2 argumentos que são os arquivos que se deseja comparar.
+``` {.sourceCode .bash}
+$ diff #arquivo1 #arquivo2
+```
+
+Como resultado, será apresentado todas as linhas que diferem entre os arquivos adicionados como argumento.  
+Caso queira, e é altamente recomendado, leia o conteúdo do arquivo com **less** ou **nano**.
+
+### 5.2 Verificando se você está prestando atenção neste jogo  
+
+> Dica: o caractere 12 é o caractere separador de parâmetros e argumentos no interpretador "shell"
+
+### 5.3 Ordenando alfabeticamente as linhas de um arquivo de texto  
+
+O interpretador shell contém um comando para ordenar as linhas de um arquivo, chamado **sort**. Este comando recebe como argumento um arquivo e resulta, no próprio terminal, as linhas ordenadas alfabeticamente de forma crescente  
+
+> Dica: o caractere 12 é o primeiro caractere da última palavra da primeira linha do arquivo "elefante.txt" ordenado
+
+Para executar a ordenação em um arquivo, use a seguinte linha de comando:
+``` {.sourceCode .bash}
+$ sort #arquivo1 
+```
+Não esqueça de verificar o arquivo original e comparar com o que foi apresentado pelo **sort**
+
+### 5.3 Encontrando palavras dentro de um arquivo de texto
+
+
+
 
 
 
