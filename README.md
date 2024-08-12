@@ -205,7 +205,26 @@ usuário@máquina:~/tutorial_bash_nv01$ ls -l exercícios/exercício02/
 
 Após descobrir o tamanho do arquivo "qual_é_meu_tamanho_em_bytes.txt", use a [tabela ASCII](https://en.wikipedia.org/wiki/ASCII#Printable_characters) e relacione o tamanho do arquivo com a coluna DEC e o caractere 04 é o glifo associado à este valor.
 
-## 3. Editar arquivos de texto  
+## 3. Visualizar e editar arquivos de texto  
+
+Volte para o diretório principal localizado em "/home/usuário/tutorial_bash_nv01/" e acesse o diretório "exercícios/exercício03/"  
+
+### 3.1 Visualizar o conteúdo de um arquivo de texto
+
+```
+DICA: o caractere 05 está dentro do arquivo "exercício03/o_quinto_caractere_está_aqui.txt"
+```
+
+Para exibir o conteúdo de um arquivo de texto, use o comando **less** com o arquivo desejado como argumento:
+``` {.sourceCode .bash}
+$ less o_quinto_caractere_está_aqui.txt
+```
+
+Como resultado, será exibido uma tela contendo o conteúdo do arquivo uma página de cada vez. O comando **less** permite navegar no texto utilizando as setas de movimentação **cima** e **baixo** do teclado. Porém, o arquivo é pequeno e não é necessário tal ação.  
+
+Após anotar o caractere 05, use a tecla Q para encerrar o comando **less**  
+
+### 3.2 Editar um arquivo de texto com programa "nano"
 
 
 
