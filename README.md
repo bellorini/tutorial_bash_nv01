@@ -182,6 +182,9 @@ Uma das formas mais simples de executar um arquivo **script** é utilizar o coma
 usuário@máquina:~$ source #nome do arquivo que contém o script, normalmente terminal em .sh
 ```  
 
+**IMPORTANTE**: scripts da internet podem ser perigosos, sempre certifique-se que a origem do script é segura antes de executá-lo e nunca, jamais, big nop, execute linhas de comando copiadas da internet sem ter um pouco de conhecimento sobre o que estas executam, pois você pode executar algo malicioso. 
+> Linha de comando e scripts são ferramentas poderosas que são utilizadas para o bem e também para o mal!
+
 ### 2.4 Descobrindo o tamanho de um arquivo com ls
 
 ```
