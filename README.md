@@ -48,14 +48,16 @@ Na sequência, o termo **<máquina\>** é o nome do computador que você está u
 Para a coerência deste jogo, toda vez que for necessário apresentar a linha de comando completa, será usado estes dois termos genéricos **<usuário\>** e **<máquina\>**.
 
 para garantir que você está no diretório _home do usuário_ entre com o seu primeiro comando:  
-Observação: para executar um comando, digite-o e pressione **enter**
+Observação 1: para executar um comando, digite-o e pressione **ENTER**
 ``` {.sourceCode .bash}
-usuário@máquina:~$ pwd
+usuário@máquina:~$ pwd # pressione ENTER
 ```  
 Deverá ser apresentado a seguinte resposta:
 ``` {.sourceCode .bash}
 /home/usuário
 ```
+
+Observação 2: em alguns momento será necessário adicionar um ou outro comentário, desta forma, o caractere **#** será utilizado, portanto, tudo o que estiver à direita do **#** é um comentário e não deve ser entrado no terminal
 
 Após verificado estas condições inicias, vamos começar nossa caçada às letras.
 
@@ -81,11 +83,42 @@ usuário@máquina:~$ ls
 
 ### 1.2 Descompactar o arquivo tutorial_bash_nv01.zip  
 
-O arquivo baixado está no formato [zip](https://pt.wikipedia.org/wiki/ZIP). Estes arquivos agrupam (empacotam) e compactam outros arquivos. 
+O arquivo baixado está no formato [zip](https://pt.wikipedia.org/wiki/ZIP). Estes arquivos agrupam (empacotam) e compactam outros arquivos.  
 
-TODO  
-* listar conteúdo de arquivo compactado  
-* descompactar zip  
+O comando **unzip** é utilizado para, entre outras coisas, listar o conteúdo de um arquivo compactado e descompactar este pacote.  
+Inicialmente, vamos listar o conteúdo do pacote **tutorial_bash_nv01.zip** com a seguinte linha de comando:
+``` {.sourceCode .bash}
+usuário@máquina:~$ unzip -l tutorial_bash_nv01.zip
+```  
+
+Será apresentado uma tabela com uma estrutura de diretórios e arquivos, contendo tamanho, data e nome.
+
+A partir deste momento, o dispositivo mouse não deve ser mais necessário, desta forma, __mãos ao teclado__!  
+![teclado sim, mouse não](imagens/keymouse.png)  
+
+Observe que o comando **unzip** recebeu um parâmetro **-l** e um argumento **tutorial_bash_nv01.zip**. Mas o que são argumentos e parâmetros?  
+
+* **argumento(s)** são modificadores do comando que alteram a funcionalidade deste. No nosso exemplo, o comando **unzip** apenas lista o conteúdo do pacote sem qualquer outro resultado, como descompactar ou alterá-lo. 
+* **parâmetro(s)** são modificadores do comando que indicam os objetos de entrada e/ou saída da funcionalidade executada. Neste caso, o pacote **tutorial_bash_nv01.zip** é o nosso objeto que será listado.  
+
+Agora, para descompactar o pacote **tutorial_bash_nv01.zip** basta entrar com o comando:
+``` {.sourceCode .bash}
+usuário@máquina:~$ unzip tutorial_bash_nv01.zip
+```  
+
+Deverá ser criado um novo diretório chamado **tutorial_bash_nv01** dentro do seu diretório __home__. Para verificar, vamos usar o comando **ls** já conhecido, porém adicionando o argumento **tutorial_** e pressione a tecla **TAB** para autocompletar (o terminal é esperto o suficiente para autocompletar)
+``` {.sourceCode .bash}
+usuário@máquina:~$ ls tutorial_ #TAB (autocompleta com "bash_nv01")
+# resultado após pressionar TAB: 
+usuário@máquina:~$ ls tutorial_bash_nv01
+```  
+
+## 2. Navegação entre diretórios
+
+Rumo ao primeiro caractere!
+
+### 2.1 Alterar o diretório atual de trabalho
+
 
 
 
