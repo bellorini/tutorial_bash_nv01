@@ -59,6 +59,8 @@ Deverá ser apresentado a seguinte resposta:
 
 Observação 2: em alguns momento será necessário adicionar um ou outro comentário, desta forma, o caractere **#** será utilizado, portanto, tudo o que estiver à direita do **#** é um comentário e não deve ser entrado no terminal
 
+Obsevação 3: espaço em branco é muito importante no terminal, já que este é considerado um separador de campos. Assim, deve-se sempre inserir um espaço em branco entre o comando e seus parâmetros e argumentos
+
 Após verificado estas condições inicias, vamos começar nossa caçada às letras.
 
 ## 1. Baixar arquivo da internet e Descompactá-lo  
@@ -113,11 +115,38 @@ usuário@máquina:~$ ls tutorial_ #TAB (autocompleta com "bash_nv01")
 usuário@máquina:~$ ls tutorial_bash_nv01
 ```  
 
-## 2. Navegação entre diretórios
+## 2. Navegação entre diretórios e listar arquivos ocultos
 
-Rumo ao primeiro caractere!
+Rumo ao primeiro caractere!  
+Recomenda-se ir anotando os caracteres encontrados.
 
-### 2.1 Alterar o diretório atual de trabalho
+### 2.1 Alterar o diretório atual de trabalho e listar arquivos 
+
+```
+DICA: o caractere 01 pode ser encontrado no nome de um arquivo escondido no diretório "exercícios/exercício02"
+```
+
+Para navegar entre diretórios e acessar diretórios abaixo na hierarquia, também chamados de diretórios _filhos_, utilize o comando **cd** com o argumento __nome do diretório de destino__
+``` {.sourceCode .bash}
+usuário@máquina:~$ cd # insira o diretório de destino e pressione ENTER
+```  
+
+Como resultado, o diretório atual de trabalho será o diretório escolhido  
+  
+
+Para voltar ao diretório acima na hierarquia, também chamado de diretório _pai_, use o comando **cd**, porém, como argumento _nome do diretório de destino_, utilize ".." (dois pontos em sequência).
+``` {.sourceCode .bash}
+usuário@máquina:~$ cd ..
+```  
+
+Como resultado, você alterará o diretório atual de trabalho para o diretório _pai_ do seu diretório atual.
+
+Navegue entre os diretórios filhos do diretório **exercício02** até encontrar o arquivo que contém no nome o caractere escondido.  
+
+### 2.2 Listar arquivos ocultos  
+
+
+
 
 
 
