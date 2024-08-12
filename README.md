@@ -230,8 +230,61 @@ Entre com os caracteres encontrados e use as teclas de atalhos CTRL+X. Será per
 
 > DICA: o caractere 06 é o caractere que foi pressionado para afirmar o salvamento do arquivo (em inglês)
 
-## 4. Copiar e remover arquivos
+## 4. Criar diretório, copiar e remover arquivos
 
+Volte para o diretório principal localizado em "/home/usuário/tutorial_bash_nv01/" e acesse o diretório "exercícios/exercício04/"  
+
+### 4.1 Criar um diretório  
+
+Liste o conteúdo do diretório "exercício04". Este diretório deve conter 2 subdiretório chamados "solução_parte_01" e "solução_parte_02". Dentro de cada um destes diretórios existe um arquivo de texto.
+
+Crie um subdiretório chamado "solução_completa" dentro deste diretório "exercício04" com o comando **mkdir**. O comando **mkdir**, de _make directory_ aceita um ou mais argumentos, separados com espaço em branco, sendo que cada argumento é o nome do subdiretório que deve ser criado. No caso, basta criar apenas um único diretório.
+``` {.sourceCode .bash}
+$ mkdir solução_completa
+```
+
+Liste novamente o conteúdo do diretório "exercício04" para confirmar a criação deste diretório "solução_completa"
+
+### 4.2 Copiar arquivos
+
+Para encontrar a próxima solução, será necessário copiar os arquivos dos subdiretórios "solução_parte_01" e "solução_parte_02" para o subdiretório criado "solução_completa". Para tal, use o comando **cp**, que aceita dois argumentos:  
+
+* primeiro argumento: é o arquivo de origem que será copiado
+* segundo argumento: é o local de destino da cópia
+
+Desta forma, para completar a ação de copiar, identifique os nomes dos arquivos dos subdiretórios e execute 2x o comando **cp**
+``` {.sourceCode .bash}
+$ cp solução_parte_01/#_arquivo_de_origem solução_completa/
+```
+
+e
+``` {.sourceCode .bash}
+$ cp solução_parte_02/#_arquivo_de_origem solução_completa/
+``` 
+
+> DICA: os caractere 07 e caractere 08 estão marcados entre os dois arquivos copiados para o subdiretório "solução_completa". Você deve listá-los com o comando **ls -l** e o segundo arquivo marca com caractere "+" o caractere que será usado como solução no primeiro arquivo, respectivamente como 07 e 08.
+
+### 4.3 Removendo arquivos
+
+No subdiretório "dados" encontram-se vários arquivos com nomes padronizados. Dois destes arquivos não contém o caractere "Y" em seus nomes. Você deve remover todos os arquivos que contém "Y".
+
+> DICA: os caracteres 09 e 10 são os caracteres diferente de "X" nos nomes dos dois arquivos que sobrarem após a remoção de todos os arquivos que contém "Y" em seu nome do subdiretório "dados"
+
+Para remover um arquivo, use o comando **rm** seguido do argumento nome_do_arquivo_a_ser_excluído.
+``` {.sourceCode .bash}
+$ rm # insira o nome_do_arquivo_a_ser_excluído
+```
+
+Outra dica é o caractere coringa __*__ que pode ser usado no terminal. Este caracteres significa "qualquer combinação de caracteres nesta posição", isto é, se você usar a seguinte linha de comando:
+``` {.sourceCode .bash}
+$ rm *Y
+```
+
+Como resultado, removerá TODOS os arquivos que contém qualquer combinação de caracteres e são finalizados com o caractere "Y". Você pode aplicar mais do que um caractere coringa __*__ nas linhas de comando.
+
+**IMPORTANTE**: o caractere coringa é muito poderoso e deve ser usado com cautela. Em Linux, não é possível recuperar um arquivo apagado pelo comando **rm**.
+
+## 5. Processamento básico de textos
 
 
 
