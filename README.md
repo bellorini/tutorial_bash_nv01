@@ -127,9 +127,7 @@ Recomenda-se ir anotando os caracteres encontrados.
 
 ### 2.1 Alterar o diretório atual de trabalho e listar arquivos 
 
-```
-DICA: o caractere 01 pode ser encontrado no nome de um arquivo escondido no diretório "exercícios/exercício02"
-```
+> DICA: o caractere 01 pode ser encontrado no nome de um arquivo escondido no diretório "exercícios/exercício02"
 
 Para navegar entre diretórios e acessar diretórios abaixo na hierarquia, também chamados de diretórios _filhos_ ou _subdiretórios_, utilize o comando **cd** com o argumento __nome do diretório de destino__
 ``` {.sourceCode .bash}
@@ -152,9 +150,8 @@ Navegue entre os diretórios filhos do diretório **exercício02** até encontra
 
 ### 2.2 Listar arquivos ocultos  
 
-```
-DICA: o caractere 02 pode ser encontrado no nome de um arquivo oculto e escondido no diretório "exercícios/exercício02"
-```
+> DICA: o caractere 02 pode ser encontrado no nome de um arquivo oculto e escondido no diretório "exercícios/exercício02"
+
 
 Arquivos ocultos no Linux são aqueles cujo nome iniciam com um caractere "." (ponto)  
 
@@ -170,9 +167,7 @@ Como resultado, serão apresentados os arquivos ocultos junto com os arquivos "n
 
 ### 2.3 Executando um script
 
-```
-DICA: o caractere 03 será exibido no terminal ao executar o script chamado "um_script.sh" existente em algum subdiretório do diretório exercícios/exercício02/
-```
+> DICA: o caractere 03 será exibido no terminal ao executar o script chamado "um_script.sh" existente em algum subdiretório do diretório exercícios/exercício02/
 
 Um arquivo [script](https://pt.wikipedia.org/wiki/Shell_script) é um arquivo que contém um ou vários comandos **shell** em uma sequência lógica de execução. Estes arquivos são extremamente úteis para tornar ações rotineiras em _scripts_ automáticos.
 
@@ -187,9 +182,8 @@ usuário@máquina:~$ source #nome do arquivo que contém o script, normalmente t
 
 ### 2.4 Descobrindo o tamanho de um arquivo com ls
 
-```
-DICA: o caractere 04 é o caractere ASCII apontado pelo tamanho do arquivo "exercícios/exercício02/qual_é_meu_tamanho_em_bytes.txt"
-```
+
+> DICA: o caractere 04 é o caractere ASCII apontado pelo tamanho do arquivo "exercícios/exercício02/qual_é_meu_tamanho_em_bytes.txt"
 
 Até o momento, o comando **ls** foi usado de forma _pura_, sem parâmetros ou argumentos. Porém, este comando pode fazer muitas coisas, e uma delas é mostrar várias informações de arquivos ou um arquivo específico. Estas informações estão relacionadas na forma de uma tabela com as seguintes informações (da esquerda para direita):  
 
@@ -214,9 +208,7 @@ Volte para o diretório principal localizado em "/home/usuário/tutorial_bash_nv
 
 ### 3.1 Visualizar o conteúdo de um arquivo de texto
 
-```
-DICA: o caractere 05 está dentro do arquivo "exercício03/o_quinto_caractere_está_aqui.txt"
-```
+> DICA: o caractere 05 está dentro do arquivo "exercício03/o_quinto_caractere_está_aqui.txt"
 
 Para exibir o conteúdo de um arquivo de texto, use o comando **less** com o arquivo desejado como argumento:
 ``` {.sourceCode .bash}
