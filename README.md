@@ -127,7 +127,7 @@ Recomenda-se ir anotando os caracteres encontrados.
 
 ### 2.1 Alterar o diretório atual de trabalho e listar arquivos 
 
-> DICA: o caractere 01 pode ser encontrado no nome de um arquivo escondido no diretório "exercícios/exercício02"
+> DICA: o caractere 01 pode ser encontrado no nome de um arquivo em algum lugar do diretório "exercícios/exercício02"
 
 Para navegar entre diretórios e acessar diretórios abaixo na hierarquia, também chamados de diretórios _filhos_ ou _subdiretórios_, utilize o comando **cd** com o argumento __nome do diretório de destino__
 ``` {.sourceCode .bash}
@@ -150,7 +150,7 @@ Navegue entre os diretórios filhos do diretório **exercício02** até encontra
 
 ### 2.2 Listar arquivos ocultos  
 
-> DICA: o caractere 02 pode ser encontrado no nome de um arquivo oculto e escondido no diretório "exercícios/exercício02"
+> DICA: o caractere 02 pode ser encontrado no nome de um arquivo oculto e em algum lugar do diretório "exercícios/exercício02"
 
 
 Arquivos ocultos no Linux são aqueles cujo nome iniciam com um caractere "." (ponto)  
@@ -220,6 +220,18 @@ Como resultado, será exibido uma tela contendo o conteúdo do arquivo uma pági
 Após anotar o caractere 05, use a tecla Q para encerrar o comando **less**  
 
 ### 3.2 Editar um arquivo de texto com programa "nano"
+
+Para encontrar o caractere 06, crie um arquivo de texto contendo os cinco caracteres já encontrados. Para criar e editar um arquivo de texto, use o programa [**nano**](https://terminalroot.com.br/2015/10/o-editor-de-texto-nano.html). Estando no diretório "exercício03" entre com o seguinte comando:
+``` {.sourceCode .bash}
+$ nano caractere06.txt
+```
+
+Entre com os caracteres encontrados e use as teclas de atalhos CTRL+X. Será perguntado se você deseja salvar o arquivo, responda de forma afirmativa com o caractere "S" ou "Y" (em inglês). Logo, será perguntado qual é o nome do arquivo, que já estará preenchido, bastando pressionar ENTER. 
+
+> DICA: o caractere 06 é o caractere que foi pressionado para afirmar o salvamento do arquivo (em inglês)
+
+## 4. Copiar e remover arquivos
+
 
 
 
