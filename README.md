@@ -75,7 +75,7 @@ Após verificado estas condições inicias, vamos começar nossa caçada às let
 Vamos baixar a estrutura de diretórios e arquivos deste repositório utilizando o comando **wget**.  
 Este comando é um _downloader_ que aceita como argumento uma [URI](https://pt.wikipedia.org/wiki/URL). Neste caso, como desejamos baixar a estrutura de diretórios do nosso repositório, usaremos a URI do arquivo compactado como este argumento. Desta forma, no terminal, entre com o seguinte comando:
 ``` {.sourceCode .bash}
-usuário@máquina:~$ wget https://github.com/bellorini/tutorial_bash_nv01/archive/refs/heads/tutorial_bash_nv01.zip
+wget https://github.com/bellorini/tutorial_bash_nv01/archive/refs/heads/tutorial_bash_nv01.zip
 ```
 
 TODO, apresentar texto de completado após completar a construção deste tutorial  

@@ -1,0 +1,270 @@
+9S arrived at a desert, a dusty wind tugging at his clothes.
+
+The area was devoid of life, 
+as far as the eye could see.
+A small machine lay buried in the sand nearby.
+It was a small black box, with a tiny blinking light on it.
+9S extracted the data and found the following strings of text...
+
+Credits for NieR:Automata BECOME AS GODS Edition
+
+Director: YOKO TARO
+
+PlatinumGames Inc.
+
+EXECUTIVE PRODUCER: Atsushi Inaba
+Producer: Eijiro Nishimura
+
+GAME DESIGN
+Lead Game Designer: Mari Fujita
+
+UI DESIGN
+Lead UI Artist / Mechanic Concept Artist: Hisayoshi Kijima
+
+PROGRAMMING
+Lead Programmer: Ryo Onishi
+Programmer: Shoichi Hirakawa
+Programmer: Kazunori Morita
+
+TECHNICAL SUPPORT
+CTO / Technology Team: Wataru Ohmori
+Technology Team: Tsuyoshi Odera
+Technology Team: Keisuke Kamakami
+
+MUSIC
+Lead Music Implementation: Masami Ueda
+
+SOUND
+Lead Sound Designer: Misaki Shindo
+Sound Programmer; Shuji Kohata
+
+OUTSOURCING
+Outsourcing Supervisor: Atsushi Kurooka
+Outsourcing Manager: Tsuneharu Nishioka
+Outsourcing Manager: Tokuma Nakazawa
+Outsourcing Manager: Masaharu Niimi
+
+LOCALIZATION
+Lead Localizer: Tim van Ingen
+
+QUALITY ASSURANCE
+QA Lead: Ryosuke Yokoi
+
+logicalbeat Co., Ltd
+
+Director / Lead Programmer: Yoshiki Domae
+Programmer: Ryusei Kakutani
+Programmer: Kouji Asada
+Programmer: Hideaki Tanaka
+Programmer; Hiromasa Yoshitake
+Adviser: Takuro Kayumi
+Assistant: Sai Itabashi
+
+DIGITAL Hearts Co., Ltd.
+
+QA Lead: Akira Muranaka
+Tester: Shunsuke Kato
+Tester: Aoki Kenta
+Tester: Tomohiro Nakai
+Tester: Tomoyoshi Yamashita
+
+Keywords Studios
+
+LOCALIZATION
+International Project Manager: Sonia Iacona
+Language Project Lead: Marco Locatelli
+Engineer Project Lead: Mariella Baldussi
+
+LOCALIZATION QA
+LQA Testing Project Manager: Carmen Paolini
+LQA Test Lead: Loic Bocquet Marques
+English Tester: Denise Kavanagh
+French Tester: Antoine Guihery
+Italian Tester: Giulia Natoli
+German Tester: Kristof Schadek
+Spanish Tester: Raul Ferreira Blanco
+ 
+SQUARE ENIX CO., LTD.
+
+BUSINESS DIVISION VI
+Executive Producer: Yuu Miyake
+Assistant Producer: Takahiro Iino
+
+MARKETING DIVISION
+PR Manager: Ryutaro Sasaki
+PR Planner: Tomoaki Takano
+Chief International PR Coordinator: Ayako Kawamoto
+International PR Coordinator: Yuko Endo
+International PR Coordinator: Chinami Nishiyama
+Asian Marketing & PR Coordinator: Maiki Shimizu
+
+LEGAL & INTELLECTUAL PROPERTY DIVISION: Mitsutaka Aoyagi
+
+QUALITY ASSURANCE
+Coordinator: Hiroyuki Omura
+Coordinator: Kengo Murata
+Coordinator: Mai Fujikake
+Coordinator: Masahiro Nobuhara
+Coordinator: Taiki Arashima
+Technical Engineer: Taisuke Yahisa
+Technical Engineer: Noboru Taniguchi
+Technical Engineer: Hisato Iwatsuki
+Technical Engineer: Toyokazu Takehara
+Technical Engineer: Keigo Kouno
+Technical Assistant: Takahiro Suzuki
+Technical Assistant: Hiroki Katori
+Chief Coordinator: Naoki Muto
+Ratings Advisor: Reiko Kondo
+Manager: Hideyuki Kato
+Senior Manager: Yukihiro Shibuya
+General Manager: Koji Yamashita
+
+DEVELOPMENT SUPPORT DIVISION
+Administrator: Kazuya Okamoto
+Technical Production Associate: Tokuko Ishikawa
+Technical Production Supervisor: Hidetoshi Aoyagi
+
+SQUARE ENIX, INC.
+
+Assistant Director of Quality Assurance: David "Ribs" carrillo
+Associate QA Manager: Keith P. Christensen-Martz
+Assistant QA Manager: Mathew A. Clift
+Senior QA Coordinator: Carmelo Cabezo
+QA Coordinator: Tim Blake
+QA Administrator: Louis Sedeno III
+QA Team: Zachary Haley
+QA Team: Chris Kehoe
+QA Translator: Takahiro Soh
+Localization & QA Director: Yutaka Sano
+Director, Head of Business & Legal Affairs: Adam Sullivan
+Associate Director, Business & Legal Affairs: Brian Finkelstein
+Senior Counsel: Noi Sasaki
+Counsel: Patrick Soon
+Counsel: Andrew Bardi
+Paralegal: Kimberly Lifschitz
+Legal Assistant: Stephanie Pimentel
+Contracts Administrator: Jameson Marrs
+Director, Product Marketing: Ryan Lacina
+Manager, Product Marketing: Francis Santos
+Senior PR Manager: Emily Shoji
+PR Manager: Stephanie Chang
+Assistant PR Manager: Adam Pelc
+Director of Public Relations: David Yang
+Senior Director, Sales: Ron Kurtz
+Senior Manager, Sales: Eric Rosenberger
+Manager, Sales Operations: Nikki Mak
+Coordinator, Sales Operations: Andrea Domingo
+Coordinator, Sales Operations: Valerie Dipraseuth
+Manager, Sales Analyst: Josh England
+Sales Analyst: Kasim Somers
+Jr. Sales Analyst: Lana Josephbek
+Coordinator, Sales & Claims: Max Mena
+Coordinator, Sales & Claims: Christian Arter
+Coordinator, Sales & Claims: Aislyn Wise
+Coordinator, Sales & Claims: Lawrence Garduno
+Associate Director, Channel Marketing: Adam Neuman
+Online Marketing Manager, Interactive Marketing: Kaori Takasue
+Sr. Online Marketing Manager, Interactive Marketing: Eric So
+Community Manager; Samantha Laabs
+Sr. Web Producer, Interactive Marketing: Richard Cerow
+Web Designer: Aaron Pathammavong
+Sr. Manager, Central Digital Marketing Manager & Global media: Chris Van Hook
+Manager, Central Digital Marketing: Amber Galvin
+Executive Director Online: Yutaka Okura
+e-Commerce Manager, Interactive Marketing: Shinri Matsuoka
+Associate e-Commerce Manager, Interactive Marketing: John Siy
+Marketing Performance Analyst: Samuel Bonin
+Director of Creative Services: Michael Bannon
+Senior Manager of Creative Services: Brett Wooldridge
+Senior Designer of Creative Services: James Cunningham
+Graphic Designer: Raul Encarnacion
+Traffic/Asset Manager: Natasha Watford
+General Manager, Digital Sales: Doug Bone
+Head of Digital Sales, Digital Sales: Andrew Larcombe
+Commercial Manager, Digital Sales: Diego Hernandez
+Associate Manager, Digital Sales: Brian Jausurawong
+Digital Producer, Digital Sales: Toby Coleman
+Digital Sales Manager, Digital Sales: Jason Brooks
+Digital Operations Manager: Keith Hershey
+Digital Operations Coordinator: Tiffany Ponsiano
+Business Analyst, Digital Sales: Warren Perdon
+Manager, Merchandise: Jennifer Park
+Assistant Manager of Merchandise: Kelsey Britt
+Merchandise Coordinator: Richard Brady
+Senior Manager, Project Communications & Events: Ami Funaki
+Assistant Manager, Project Communications & Events: Aimi Tokutake
+Assistant Manager, Project Communications & Events: Aileen Matsuoka
+Events Director: Wilbur Lin
+Senior Director of Sales Planning,
+Merchandise, Project Com & Events: Kanji Romeo Tashiro
+Finance & Accounting: Koichiro Hayashi
+Finance & Accounting: Theresa Castro
+Finance & Accounting: Anna Tikhonova
+Finance & Accounting: Christine Derise
+Finance & Accounting: Daniel Silva
+Finance & Accounting: Sam Kim
+Finance & Accounting: Andy Peng
+Finance & Accounting: Belinda Liu
+Finance & Accounting: Emmanuel Saldivar
+Chief Executing Officer: Phil Rogers
+Chief Operating Officer: Mike Sherlock
+Executive Director: Larry Sparks
+Executive Management Office: Yoko Hashimoto
+Executive Management Office: Kumiko Hasegawa
+
+SQUARE ENIX LTD.
+
+Operations Director: Seb Ohsan Berthelsen
+Head of Localisation: Yuko Tomizawa
+Localisation Producer: Elisa Giribaldi
+Assistant Localisation Producer: Giulia Isnenghi
+Localisation QA Manager: Björn Holste
+Mastering Manager: Jason Walker
+Japanese Translation Manager: Andii Yamanaka
+Japanese Business Translator: Emi Louise Croucher
+Japanese Business Translator: Kyoko Hotta Gowlett
+Japanese Business Translator: Sumiko Okada
+Japanese Business Translator: Gavin Poffley
+Japanese Business Translator: Shigeru Tabata
+Japanese Business Translator: Rebecca Fifield Green
+Senior Brand Manager: Thach Quach
+Senior Brand Director: Kathryn Cala
+Senior PR Manager - SEJ West: Amy Hughes
+Community Manager - SEJ West: Daniel Seto
+Community Manager - SEJ West: Sunil Godhania
+PR & Communications Director: Alex Huhtala
+Executive Director - SEJ West: Larry Sparks
+COO: Mike Sherlock
+CEO: Phil Rogers
+
+TESTRONIC LABORATORIES LTD.
+
+Head of Localisation QA: Edward Buffery
+Localisation QA Manager: Gaëlle Caballero
+Project Manager: Valentina Mollica
+Localisation QA Project Lead: Carlos Sagasti
+Localisation QA Tester: Jenny Steiert
+Localisation QA Tester: Killian Missino
+Localisation QA Tester: Camilla Miliacca
+Localisation QA Tester: Iris Bier
+Localisation QA Tester: Joan Rodon Provencio
+
+SPECIAL THANKS
+
+Kazuma Koda
+Marc Titheridge
+Kazuhiro Fukagaya
+Wataru Ninomiya
+Ryuto Sakurai
+Yu Sugimoto
+Shun Koike
+
+SQUARE ENIX CO., LTD
+
+PRODUCER: Yosuke Saito
+
+PRESIDENT & CEO: Yosuke Matsuda
+
+9S had no idea what any of this meant, but he was sure it was of no importance.
+He tucked the black box back into the sand,
+and pretended none of this had ever happened...
