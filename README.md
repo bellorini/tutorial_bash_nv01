@@ -372,7 +372,7 @@ $ man #comando que se deseja conhecer mais
 
 Para verificar a quantidade de memória RAM disponível no computador em uso, use o comando **free**
 ``` {.sourceCode .bash}
-$ free
+$ free # opcionalmente, pode ser usado parâmetro para modificar a apresentação dos valores
 ```
 
 ## 8. Compactando e descompactando arquivos  
@@ -391,6 +391,14 @@ Você ainda lembra como listar e descompactar arquivos compactados no formato .z
 
 ### 8.3 Descompactar arquivos .tar.gz  
 
+
+
+
+----
+
+### Licença
+
+Este tutorial é uma adaptação do tutorial **[bash_tutorial](https://github.com/krother/bash_tutorial)** de Kristian Rother e publicado sobre a [Licença Creative Commons Attribution Share-alike License 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.pt-br)
 
 
 
