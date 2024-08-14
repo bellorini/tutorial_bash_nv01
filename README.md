@@ -333,20 +333,49 @@ O resultado será uma lista de linhas pertencentes ao arquivo que contém a pala
 
 Volte para o diretório principal localizado em "/home/usuário/tutorial_bash_nv01/"  
 
+### 6.1 Encontrar arquivos case-sensitive  
+
 > Dica: o caractere 15 está na última linha do arquivo que contém o termo "Pascal" em seu nome. Este arquivo está localizado em algum lugar dos subdiretórios de "tutorial_bash_nv01"
 
 **IMPORTANTE**: o nome do arquivo procurado não é somente "Pascal", mas **contém "Pascal"**, desta forma, vale lembrar do uso do caractere curinga __*__ observado no item 4.3
 
-Para procurar um arquivo pelo nome, utilize o comando **find** com o parâmetro **-name="nome_desejado"**
+Para procurar um arquivo pelo nome, utilize o comando **find** com o parâmetro **-name "nome_desejado"**
 ``` {.sourceCode .bash}
-$ find -name=#insira aqui o nome desejado entre áspas duplas, e não use espaço entre o = e este nome
+$ find -name #insira aqui o nome desejado entre áspas duplas após o espaço em branco
 ```
 
 Após encontrar o arquivo, liste as últimas linhas deste arquivo com o comando **tail**
 ``` {.sourceCode .bash}
-$ tail #local+nome do arquivo desejado
+$ tail #nome do arquivo desejado
 ```
 
+### 6.2 Encontrar arquivos non-case-sensitive  
+
+O comando **find** contém um parâmetro diferente de **-name** para casos onde caracteres maiúsculo ou minúsculos não são conhecidos, este parâmetro é o **-iname**. 
+
+``` {.sourceCode .bash}
+$ find -iname #insira aqui o nome desejado entre áspas duplas após o espaço em branco
+```
+
+> Dica: o caractere 16 está localizado no nome de um arquivo oculto que contém o texto "a2"
+
+## 7. Lendo manual dos comandos  
+
+A grande maioria dos comandos contém um manual acessado por **man**
+``` {.sourceCode .bash}
+$ man #comando que se deseja conhecer mais
+```
+
+### 7.1 Conferindo a quantidade de memória RAM disponível  
+
+> Dica: o caractere 17 é o parâmetro utilizado para mostrar a quantidade de memória livre em formato Gibibytes.
+
+Para verificar a quantidade de memória RAM disponível no computador em uso, use o comando **free**
+``` {.sourceCode .bash}
+$ free
+```
+
+## 8. Compactando e descompactando arquivos  
 
 
 
