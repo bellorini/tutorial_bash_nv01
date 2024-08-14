@@ -318,6 +318,16 @@ Não esqueça de verificar o arquivo original e comparar com o que foi apresenta
 
 ### 5.3 Encontrando palavras dentro de um arquivo de texto
 
+Em algumas ocasiões, você poderá se deparar com a necessidade de procurar algo dentro de um arquivo de texto muito grande. No lugar de abrir o arquivo e o lê-lo por completo, é possível pedir ao comando **grep** para localizar uma palavra que pertença a linha procurada.
+
+``` {.sourceCode .bash}
+$ sort #palavra_procurada #arquivo
+```
+
+O resultado será uma lista de linhas pertencentes ao arquivo que contém a palavra procurada nestas.
+
+> Dica: o caractere 13 está dentro do arquivo "memorias_enterradas_na_areia.txt". Mais precisamente, é o primeiro caractere da única linha que contém a palavra "happened"  
+
 
 
 
