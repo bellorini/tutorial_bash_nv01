@@ -308,7 +308,7 @@ Caso queira, e é altamente recomendado, leia o conteúdo do arquivo com **less*
 
 O interpretador shell contém um comando para ordenar as linhas de um arquivo, chamado **sort**. Este comando recebe como argumento um arquivo e resulta, no próprio terminal, as linhas ordenadas alfabeticamente de forma crescente  
 
-> Dica: o caractere 12 é o primeiro caractere da última palavra da primeira linha do arquivo "elefante.txt" ordenado
+> Dica: o caractere 13 é o primeiro caractere da última palavra da primeira linha do arquivo "elefante.txt" ordenado
 
 Para executar a ordenação em um arquivo, use a seguinte linha de comando:
 ``` {.sourceCode .bash}
@@ -321,12 +321,34 @@ Não esqueça de verificar o arquivo original e comparar com o que foi apresenta
 Em algumas ocasiões, você poderá se deparar com a necessidade de procurar algo dentro de um arquivo de texto muito grande. No lugar de abrir o arquivo e o lê-lo por completo, é possível pedir ao comando **grep** para localizar uma palavra que pertença a linha procurada.
 
 ``` {.sourceCode .bash}
-$ sort #palavra_procurada #arquivo
+$ grep #palavra_procurada #arquivo
 ```
 
 O resultado será uma lista de linhas pertencentes ao arquivo que contém a palavra procurada nestas.
 
-> Dica: o caractere 13 está dentro do arquivo "memorias_enterradas_na_areia.txt". Mais precisamente, é o primeiro caractere da única linha que contém a palavra "happened"  
+> Dica: o caractere 14 está dentro do arquivo "memorias_enterradas_na_areia.txt". Mais precisamente, é o primeiro caractere da única linha que contém a palavra "happened"  
+
+
+## 6. Encontrar arquivos
+
+Volte para o diretório principal localizado em "/home/usuário/tutorial_bash_nv01/"  
+
+> Dica: o caractere 15 está na última linha do arquivo que contém o termo "Pascal" em seu nome. Este arquivo está localizado em algum lugar dos subdiretórios de "tutorial_bash_nv01"
+
+**IMPORTANTE**: o nome do arquivo procurado não é somente "Pascal", mas **contém "Pascal"**, desta forma, vale lembrar do uso do caractere curinga __*__ observado no item 4.3
+
+Para procurar um arquivo pelo nome, utilize o comando **find** com o parâmetro **-name="nome_desejado"**
+``` {.sourceCode .bash}
+$ find -name=#insira aqui o nome desejado entre áspas duplas, e não use espaço entre o = e este nome
+```
+
+Após encontrar o arquivo, liste as últimas linhas deste arquivo com o comando **tail**
+``` {.sourceCode .bash}
+$ tail #local+nome do arquivo desejado
+```
+
+
+
 
 
 
