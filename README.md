@@ -377,6 +377,19 @@ $ free
 
 ## 8. Compactando e descompactando arquivos  
 
+Volte para o diretório principal localizado em "/home/usuário/tutorial_bash_nv01/" e acesse o diretório "exercícios/exercício08/"  
+
+### 8.1 Listar arquivo .zip  
+
+Você ainda lembra como listar e descompactar arquivos compactados no formato .zip?
+
+> Dica: o caractere 18 está indicado no nome do arquivo compactado dentro do pacote "caracteres_18_e_19_estão_aqui.zip"
+
+### 8.2 Descompactar arquivos .zip  
+
+> Dica: o caractere 19 está no conteúdo do arquivo compactado dentro do pacote "caracteres_18_e_19_estão_aqui.zip"
+
+### 8.3 Descompactar arquivos .tar.gz  
 
 
 
