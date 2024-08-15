@@ -68,6 +68,8 @@ Obsevação 4: espaço em branco é muito importante no terminal, já que este �
 
 Após verificado estas condições inicias, vamos começar nossa caçada às letras.
 
+----
+
 ## 1. Baixar arquivo da internet e Descompactá-lo  
 
 ### 1.1 Baixar o arquivo tutorial_bash_nv01.zip
@@ -119,6 +121,7 @@ usuário@máquina:~$ ls tutorial_ #TAB (autocompleta com "bash_nv01")
 # resultado após pressionar TAB: 
 usuário@máquina:~$ ls tutorial_bash_nv01
 ```  
+
 
 ## 2. Diretórios e Arquivos
 
@@ -390,6 +393,29 @@ Você ainda lembra como listar e descompactar arquivos compactados no formato .z
 > Dica: o caractere 19 está no conteúdo do arquivo compactado dentro do pacote "caracteres_18_e_19_estão_aqui.zip"
 
 ### 8.3 Descompactar arquivos .tar.gz  
+
+É comum encontrar arquivos no formato **.tar.gz** em Sistemas Operacionais baseados em Linux. Na verdade, **[.tar.gz](https://diolinux.com.br/tutoriais/o-que-e-tar-gz-e-como-utilizar.html)** são dois formatos de arquivos. O formato .tar, também chamado de _tarball_ é usado para unir vários arquivos em um único arquivo, algo muito semelhante aos pacotes .zip, porém, sem a compactação. Já o formato .gz, de GNU zip, é utilizado para compactar. Desta forma, o _tarball_ empacota arquivos, e o GNU zip compacta-os.
+
+> Dica: o caractere 20 está localizado como nome de arquivo dentro do pacote "grimoire_weiss.tar.gz".
+
+Para listar o conteúdo de um arquivo **.tar.gz** é necessário passar alguns parâmetros para o comando **tar**, são eles:  
+* **-z**: interpreta o arquivo utilizando um programa compactador chamado **gunzip**
+* **-t**: lista o conteúdo, porém, é necessário especificar o arquivo com outro parâmetro
+* **-f**: recebe como argumento um nome de arquivo nos formatos .tar.gz
+
+Então, a linha de comando para listar o conteúdo de um arquivo .tar.gz é:
+``` {.sourceCode .bash}
+$ tar -ztf # nome_do_arquivo.tar.gz para listar conteúdo
+```
+
+> Dica: o caractere 21 está localizado dentro de um arquivo compactado no arquivo "grimoire_weiss.tar.gz"
+
+Para descompactar um pacote **.tar.gz** usa-se o parâmtro **-x**, de _extract_. Porém, ainda é necessário informar o arquivo com o parâmetro **-f**. algumas vezes, também é necessário informar o uso do programa **gunzip**.
+
+``` {.sourceCode .bash}
+$ tar -xf # nome_do_arquivo.tar.gz que será descompactado
+```
+
 
 
 
