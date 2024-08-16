@@ -416,9 +416,35 @@ Para descompactar um pacote **.tar.gz** usa-se o parâmtro **-x**, de _extract_.
 $ tar -xf # nome_do_arquivo.tar.gz que será descompactado
 ```
 
+**IMPORTANTE**: o parâmetro **-f** deve ser o último e o nome do arquivo deve aparecer como argumento logo na sequência.
 
+## 9. Últimos caracteres 22 e 23
 
+Volte para o diretório principal localizado em "/home/usuário/tutorial_bash_nv01/" e acesse o diretório "exercícios/exercício09/", um diretório vazio!  
 
+### 9.1 Contar caracteres  
+
+> Dica: o caractere 22 correto está dentro do arquivo com exatos 23 caracteres
+
+Para contar a quantidade de caracteres de um arquivo, incluindo espaço em branco, utilize o comando **wc** com o parâmetro que não será informado neste documento. Desta forma, não esqueça de ler o manual.
+
+``` {.sourceCode .bash}
+$ wc parâmetro_não_informado #nome_do_arquivo_1 nome_do_arquivo_2 ... nome_do_arquivo_x
+```
+
+É possível inserir como argumentos o nome de vários arquivos, então, para facilitar a sua vida, você pode usar o caractere curinga __*__ já conhecido.
+
+### 9.2  
+
+> Dica: o caractere 23 está escondido em algum lugar do documento chamado "README.md"  
+>       lembra como procura por arquivos?  
+>       lembra como procurar por texto dentro de um arquivo? Procure por ": #" (com as áspas!)  
+
+[//]: # (caractere_23_é__S -> parabéns, você conseguiu chegar ao final!!!!)
+
+# Fim
+
+Agora que você chegou ao fim, reuna os 23 caracteres e busque as 2 palavras no google imagens!
 
 ----
 
