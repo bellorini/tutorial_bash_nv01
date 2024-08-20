@@ -115,11 +115,11 @@ Agora, para descompactar o pacote **tutorial_bash_nv01.zip** basta entrar com o 
 usuário@máquina:~$ unzip tutorial_bash_nv01.zip
 ```  
 
-Deverá ser criado um novo diretório chamado **tutorial_bash_nv01** dentro do seu diretório __home__. Para verificar, vamos usar o comando **ls** já conhecido, porém adicionando o argumento **tutorial_** e pressione a tecla **TAB** para autocompletar (o terminal é esperto o suficiente para autocompletar)
+Deverá ser criado um novo diretório chamado **tutorial_bash_nv01-tutorial_bash_nv01** dentro do seu diretório __home__. Para verificar, vamos usar o comando **ls** já conhecido, porém adicionando o argumento **tutorial_** e pressione a tecla **TAB** para autocompletar (o terminal é esperto o suficiente para autocompletar)
 ``` {.sourceCode .bash}
 usuário@máquina:~$ ls tutorial_ #TAB (autocompleta com "bash_nv01")
 # resultado após pressionar TAB: 
-usuário@máquina:~$ ls tutorial_bash_nv01
+usuário@máquina:~$ ls tutorial_bash_nv01-tutorial_bash_nv01
 ```  
 
 
