@@ -80,7 +80,12 @@ Este comando é um _downloader_ que aceita como argumento uma [URI](https://pt.w
 wget https://github.com/bellorini/tutorial_bash_nv01/archive/refs/heads/tutorial_bash_nv01.zip
 ```
 
-TODO, apresentar texto de completado após completar a construção deste tutorial  
+O download será iniciado, e ao finalizar, será apresentado algo semelhante à:
+``` {.sourceCode .bash}
+2024-12-12 19:56:18 (2,15 MB/s) - tutorial_bash_nv01.zip salvo [84666]
+usuário@máquina:~$
+```
+Indicando data, hora e tamanho do arquivo baixado e retornando ao modo de entrada de comandos.
 
 O arquivo baixado chama-se **tutorial_bash_nv01.zip**. Para verificar se este arquivo foi baixado, use o comando **ls**.  
 Este comando lista o conteúdo de um diretório.
