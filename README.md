@@ -236,7 +236,7 @@ $ nano caractere06.txt
 
 Entre com os caracteres encontrados e use as teclas de atalhos CTRL+X. Será perguntado se você deseja salvar o arquivo, responda de forma afirmativa com o caractere "S" ou "Y" (em inglês). Logo, será perguntado qual é o nome do arquivo, que já estará preenchido, bastando pressionar ENTER. 
 
-> DICA: o caractere 06 é o caractere que foi pressionado para afirmar o salvamento do arquivo (em inglês)
+> DICA: o caractere 06 é o caractere que deve ser pressionado juntamente com CTRL para somente gravar o arquivo
 
 ## 4. Criar diretório, copiar e remover arquivos
 
